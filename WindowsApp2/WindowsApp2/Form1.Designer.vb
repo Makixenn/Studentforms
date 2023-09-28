@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.L_name = New System.Windows.Forms.TextBox()
         Me.Lname_label = New System.Windows.Forms.Label()
         Me.F_name = New System.Windows.Forms.TextBox()
@@ -178,7 +177,7 @@ Partial Class Form1
         'U_case
         '
         Me.U_case.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.U_case.Location = New System.Drawing.Point(661, 220)
+        Me.U_case.Location = New System.Drawing.Point(563, 287)
         Me.U_case.Name = "U_case"
         Me.U_case.Size = New System.Drawing.Size(75, 23)
         Me.U_case.TabIndex = 14
@@ -188,7 +187,7 @@ Partial Class Form1
         'L_case
         '
         Me.L_case.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.L_case.Location = New System.Drawing.Point(661, 249)
+        Me.L_case.Location = New System.Drawing.Point(563, 316)
         Me.L_case.Name = "L_case"
         Me.L_case.Size = New System.Drawing.Size(75, 23)
         Me.L_case.TabIndex = 15
@@ -198,7 +197,7 @@ Partial Class Form1
         'Hide_all
         '
         Me.Hide_all.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Hide_all.Location = New System.Drawing.Point(368, 287)
+        Me.Hide_all.Location = New System.Drawing.Point(347, 287)
         Me.Hide_all.Name = "Hide_all"
         Me.Hide_all.Size = New System.Drawing.Size(75, 23)
         Me.Hide_all.TabIndex = 16
@@ -208,7 +207,7 @@ Partial Class Form1
         'Show_all
         '
         Me.Show_all.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Show_all.Location = New System.Drawing.Point(368, 316)
+        Me.Show_all.Location = New System.Drawing.Point(347, 316)
         Me.Show_all.Name = "Show_all"
         Me.Show_all.Size = New System.Drawing.Size(75, 23)
         Me.Show_all.TabIndex = 17
@@ -217,7 +216,7 @@ Partial Class Form1
         '
         'Message
         '
-        Me.Message.Location = New System.Drawing.Point(368, 98)
+        Me.Message.Location = New System.Drawing.Point(347, 98)
         Me.Message.Name = "Message"
         Me.Message.Size = New System.Drawing.Size(287, 176)
         Me.Message.TabIndex = 18
@@ -227,7 +226,7 @@ Partial Class Form1
         '
         Me.Red_BG.BackColor = System.Drawing.Color.Red
         Me.Red_BG.ForeColor = System.Drawing.Color.Wheat
-        Me.Red_BG.Location = New System.Drawing.Point(430, 69)
+        Me.Red_BG.Location = New System.Drawing.Point(409, 69)
         Me.Red_BG.Name = "Red_BG"
         Me.Red_BG.Size = New System.Drawing.Size(25, 23)
         Me.Red_BG.TabIndex = 19
@@ -236,7 +235,7 @@ Partial Class Form1
         'Blue_BG
         '
         Me.Blue_BG.BackColor = System.Drawing.Color.Blue
-        Me.Blue_BG.Location = New System.Drawing.Point(475, 69)
+        Me.Blue_BG.Location = New System.Drawing.Point(454, 69)
         Me.Blue_BG.Name = "Blue_BG"
         Me.Blue_BG.Size = New System.Drawing.Size(25, 23)
         Me.Blue_BG.TabIndex = 20
@@ -245,7 +244,7 @@ Partial Class Form1
         'Green_BG
         '
         Me.Green_BG.BackColor = System.Drawing.Color.Lime
-        Me.Green_BG.Location = New System.Drawing.Point(522, 69)
+        Me.Green_BG.Location = New System.Drawing.Point(501, 69)
         Me.Green_BG.Name = "Green_BG"
         Me.Green_BG.Size = New System.Drawing.Size(25, 23)
         Me.Green_BG.TabIndex = 21
@@ -254,7 +253,7 @@ Partial Class Form1
         'White_BG
         '
         Me.White_BG.BackColor = System.Drawing.Color.White
-        Me.White_BG.Location = New System.Drawing.Point(566, 69)
+        Me.White_BG.Location = New System.Drawing.Point(545, 69)
         Me.White_BG.Name = "White_BG"
         Me.White_BG.Size = New System.Drawing.Size(25, 23)
         Me.White_BG.TabIndex = 22
@@ -263,7 +262,7 @@ Partial Class Form1
         'Generate
         '
         Me.Generate.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Generate.Location = New System.Drawing.Point(462, 280)
+        Me.Generate.Location = New System.Drawing.Point(431, 280)
         Me.Generate.Name = "Generate"
         Me.Generate.Size = New System.Drawing.Size(116, 36)
         Me.Generate.TabIndex = 23
@@ -276,7 +275,7 @@ Partial Class Form1
         Me.Title.BackColor = System.Drawing.Color.Transparent
         Me.Title.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Title.Font = New System.Drawing.Font("Palatino Linotype", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Title.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Title.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Title.Location = New System.Drawing.Point(264, 9)
         Me.Title.Name = "Title"
         Me.Title.Size = New System.Drawing.Size(244, 50)
@@ -285,7 +284,7 @@ Partial Class Form1
         '
         'txtFsize
         '
-        Me.txtFsize.Location = New System.Drawing.Point(661, 97)
+        Me.txtFsize.Location = New System.Drawing.Point(640, 97)
         Me.txtFsize.Name = "txtFsize"
         Me.txtFsize.Size = New System.Drawing.Size(35, 20)
         Me.txtFsize.TabIndex = 26
@@ -294,7 +293,7 @@ Partial Class Form1
         '
         Me.Fsizes.AutoSize = True
         Me.Fsizes.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Fsizes.Location = New System.Drawing.Point(702, 97)
+        Me.Fsizes.Location = New System.Drawing.Point(681, 97)
         Me.Fsizes.Name = "Fsizes"
         Me.Fsizes.Size = New System.Drawing.Size(68, 18)
         Me.Fsizes.TabIndex = 27
@@ -303,7 +302,7 @@ Partial Class Form1
         'GotoGeo
         '
         Me.GotoGeo.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GotoGeo.Location = New System.Drawing.Point(638, 332)
+        Me.GotoGeo.Location = New System.Drawing.Point(643, 360)
         Me.GotoGeo.Name = "GotoGeo"
         Me.GotoGeo.Size = New System.Drawing.Size(146, 59)
         Me.GotoGeo.TabIndex = 28
@@ -313,7 +312,7 @@ Partial Class Form1
         'Enabling
         '
         Me.Enabling.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Enabling.Location = New System.Drawing.Point(566, 364)
+        Me.Enabling.Location = New System.Drawing.Point(578, 396)
         Me.Enabling.Name = "Enabling"
         Me.Enabling.Size = New System.Drawing.Size(56, 23)
         Me.Enabling.TabIndex = 29
@@ -323,7 +322,7 @@ Partial Class Form1
         'Disabling
         '
         Me.Disabling.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Disabling.Location = New System.Drawing.Point(566, 332)
+        Me.Disabling.Location = New System.Drawing.Point(578, 362)
         Me.Disabling.Name = "Disabling"
         Me.Disabling.Size = New System.Drawing.Size(56, 26)
         Me.Disabling.TabIndex = 30
@@ -334,7 +333,6 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(818, 431)
         Me.Controls.Add(Me.Disabling)
         Me.Controls.Add(Me.Enabling)
